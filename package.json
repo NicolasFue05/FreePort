@@ -1,0 +1,29 @@
+{
+  "name": "freeport",
+  "version": "1.0.0",
+  "description": "Terminal application to check if a port is available or not, if available it returns a promise with the port.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Nicolas Javier Fuentes - NicolasFue05",
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "1.1.1",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "semi": [
+        "error",
+        "never"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ]
+    }
+  }
+}
